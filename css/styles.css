@@ -1,64 +1,88 @@
-*{
-  font-family: arial;
+body {
+  background-color: #c2dfff;
 }
 
-body{
-  background-color: #ffffcc;
+* {
+  font-family: sans-serif;
 }
 
-h1{
-  font-size: 75px;
-  color: green;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+h1 {
+  font-size: 50px;
+  color: #0000ff;
 }
 
-h2{
+h2 {
   text-align: center;
-  color: #0066ff;
-  border: 5px;
+}
+
+blockquote {
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.thumbnails {
+  display: block;
+  line-height: 100px;
+  list-style-type: none;
+}
+
+.thumbnails li {
+  display: inline-block;
   padding: 50px;
-  margin: 130px;
-  border-style: none;
-  border-bottom-style: groove;
-
+  border: 5px solid;
+  margin: 50px 50px 50px 0px;
+  font-size: 18pt;
 }
 
-blockquote{
-  font-weight: bolder;
-  font-stretch: semi-expanded;
+li img {
+  height: 100px;
+  padding: 5px;
+  border: 1px;
+  border-style: solid;
+  float:left;
+  margin-right: 15px;
 }
-
-.thumbnails{
-  line-height: 150px;
-  list-style-type:none;
-  font-size: 40px;
-  overflow: hidden;
-}
- li img{
-   height: 125px;
-   padding: 10px 10px 10px 10px;
-   float: right;
- }
- .thumbnails li{
-   border-bottom: 1px;
-   border-bottom-style: solid;
- }
-
- p img {
-   width: 99%;
-   border: 3px 3px 3px 3px;
-   border-style: ridge;
-   border-width: thick;
-   margin: 10px 15px 10px 0px;
-   text-align: center;
- }
 
 .navigation {
-  display: block;
-  float:left;
-  padding-right: 50px;
+  width: 100%;
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffff66;
 }
 
-ul {
-    list-style-type: none;
+.navigation li {
+  display: inline;
+  padding: 50px;
+  width: 100%;
+  border-right: 1px solid #bbb;
+  text-align: justify;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+.navigation li a {
+  display: inline;
+  color: #000000;
+}
+
+li a:hover {
+  color: #FFFFFF;
+}
+
+p img {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  border: 1px;
+}
+
+h3{
+  color: red;
 }
