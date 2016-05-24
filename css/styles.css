@@ -8,6 +8,19 @@ body{
 
 h1{
   font-size: 75px;
+  color: green;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h2{
+  text-align: center;
+  color: #0066ff;
+  border: 5px;
+  padding: 50px;
+  margin: 130px;
+  border-style: none;
+  border-bottom-style: groove;
+
 }
 
 blockquote{
@@ -17,8 +30,9 @@ blockquote{
 
 .thumbnails{
   line-height: 150px;
-  list-style-type:armenian;
+  list-style-type:none;
   font-size: 40px;
+  overflow: hidden;
 }
  li img{
    height: 125px;
@@ -29,3 +43,22 @@ blockquote{
    border-bottom: 1px;
    border-bottom-style: solid;
  }
+
+ p img {
+   width: 99%;
+   border: 3px 3px 3px 3px;
+   border-style: ridge;
+   border-width: thick;
+   margin: 10px 15px 10px 0px;
+   text-align: center;
+ }
+
+.navigation {
+  display: block;
+  float:left;
+  padding-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
