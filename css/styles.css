@@ -21,7 +21,6 @@ h2{
   margin: 130px;
   border-style: none;
   border-bottom-style: groove;
-
 }
 
 blockquote{
@@ -35,11 +34,13 @@ blockquote{
   font-size: 40px;
   overflow: hidden;
 }
+
  li img{
    height: 125px;
    padding: 10px 10px 10px 10px;
    float: right;
  }
+
  .thumbnails li{
    border-bottom: 1px;
    border-bottom-style: solid;
