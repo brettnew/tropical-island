@@ -1,0 +1,31 @@
+*{
+  font-family: arial;
+}
+
+body{
+  background-color: #ffffcc;
+}
+
+h1{
+  font-size: 75px;
+}
+
+blockquote{
+  font-weight: bolder;
+  font-stretch: semi-expanded;
+}
+
+.thumbnails{
+  line-height: 150px;
+  list-style-type:armenian;
+  font-size: 40px;
+}
+ li img{
+   height: 125px;
+   padding: 10px 10px 10px 10px;
+   float: right;
+ }
+ .thumbnails li{
+   border-bottom: 1px;
+   border-bottom-style: solid;
+ }
